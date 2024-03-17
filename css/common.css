@@ -30,7 +30,7 @@ body {
   height: auto;
   border-radius: 8px;
   padding: 16px;
- margin-bottom: 16px;
+ margin-bottom: 24px;
 
  }
 
@@ -42,7 +42,7 @@ body {
   margin-bottom: 8px;
   width: 360px;
   height: 40px;
-align-items: center;
+  align-items: center;
  display: grid;
  padding-left: 16px;
  font-weight: 400;
@@ -67,10 +67,23 @@ align-items: center;
   height: 40px;
   border: 1px solid rgba(128, 128, 128, 1);
   border-radius: 4px;
-  background-color: #fafafa;;
+  background-color:transparent;
   padding-left: 16px;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.04em;
+ }
+ /* ========================task 4 */
+
+ .login-form{
+  display: flex;
+  flex-direction: column;
+ }
+ .label-input{
+  display: flex;
+  flex-direction: column;
+  width: 360px;
+  height: 72px;
+  gap: 8px;
  }
