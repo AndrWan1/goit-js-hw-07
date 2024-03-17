@@ -1,11 +1,6 @@
 * {
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-  
 }
-
 
 body {
   margin: 16px;
@@ -17,73 +12,3 @@ body {
   color: #212121;
   line-height: 1.5;
 }
-
-
- h2 {
-  margin-bottom: 16px;
-  font-weight: 600;
- }
-
- .item{
-  background-color: rgba(246, 246, 254, 1);
-  width:392px;
-  height: auto;
-  border-radius: 8px;
-  padding: 16px;
- margin-bottom: 24px;
-
- }
-
- .li-item {
-  border: rgba(128, 128, 128, 1) solid 1px;
-  border-radius: 4px;
-  width: 360px;
-  height: 40px;
-  margin-bottom: 8px;
-  width: 360px;
-  height: 40px;
-  align-items: center;
- display: grid;
- padding-left: 16px;
- font-weight: 400;
- }
-
- /* ======================= task 2 */
-
- .gallery {
-   display: flex;
-   flex-wrap: wrap;
-   width: 1128px;
-   gap: 48px 24px;
- }
-
- .gallery img {
-   width: 360px;
-   height: 300px;
-
- }
- #name-input{
-  width: 360px;
-  height: 40px;
-  border: 1px solid rgba(128, 128, 128, 1);
-  border-radius: 4px;
-  background-color:transparent;
-  padding-left: 16px;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0.04em;
- }
- /* ========================task 4 */
-
- .login-form{
-  display: flex;
-  flex-direction: column;
- }
- .label-input{
-  display: flex;
-  flex-direction: column;
-  width: 360px;
-  height: 72px;
-  gap: 8px;
- }
